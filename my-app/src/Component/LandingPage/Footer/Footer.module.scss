@@ -1,0 +1,278 @@
+.contentFlex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 66px;
+
+    @media (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0px;
+
+    }
+
+    .logoDiv {
+        position: relative;
+        .mainLogo {
+            @media (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                margin-top: 76px;
+            }
+
+        }
+
+        p {
+            width: 242px;
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-top: 14px;
+
+            @media(max-width:768px) {
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 14px;
+            }
+
+
+        }
+
+        .socialMedia {
+            display: flex;
+            gap: 17px;
+            margin-top: 29px;
+
+            @media (max-width:768px) {
+                justify-content: center;
+            }
+
+           
+
+        }
+
+    }
+    .lastGift {
+        position: absolute;
+        right: -55px;
+        top: 192px;
+        @media(max-width:768px){
+            position: absolute;
+            top: 187%;
+            right: 87px;
+            transform: rotate(8deg);
+          
+        }
+        img{
+            @media (max-width:768px){
+                width: 86px;
+                height: 110px;
+           
+            }
+        }
+    }
+
+    .moreServices {
+        display: flex;
+        gap:96px;
+
+        @media (max-width:768px) {
+
+            gap: 32px;
+            margin-left: 22px;
+            margin-right: 21px;
+            margin-top: 60px;
+            justify-content: center;
+        }
+
+        .categories {
+            h3 {
+                font-family: Commissioner;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #225779;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding: 0px;
+
+                li {
+                    color: #000000;
+                    list-style-type: none;
+                    font-family: Commissioner;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    margin-top: 11px;
+
+                }
+            }
+
+        }
+
+        .company {
+            h3 {
+                font-family: Commissioner;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #225779;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding: 0px;
+
+                li {
+                    color: #000000;
+                    list-style-type: none;
+                    font-family: Commissioner;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    margin-top: 11px;
+
+                }
+            }
+
+        }
+
+        .support {
+            h3 {
+                font-family: Commissioner;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #225779;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding: 0px;
+
+                li {
+                    color: #000000;
+                    list-style-type: none;
+                    font-family: Commissioner;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    margin-top: 11px;
+
+                }
+            }
+
+        }
+    }
+
+    .message {
+        @media(max-width:768px){
+            margin: 0 auto;
+        }
+        h3 {
+            font-family: Commissioner;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #225779;
+            margin-bottom: 25px;
+            @media (max-width:768px){
+                margin-top: 40px;
+                margin-bottom:7px
+            }
+        }
+
+        input {
+            width: 296px;
+            margin-top: 24px;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            opacity: 0.7;
+            border-bottom-color: #5087ab;
+
+        }
+
+        textarea {
+            width: 296px;
+            margin-top: 24px;
+            border: 2px solid #5087ab;
+            border-radius: 6px;
+            @media (max-width:768px){
+                width: 296px;
+                margin-top: 24px;
+                border: 2px solid #5087ab;
+                border-radius: 6px;
+            }
+
+        }
+
+        .buttonMain {
+            text-align: center;
+
+            button {
+                color: #DDF2FF;
+                background-color: #225779;
+                padding-left: 22px;
+                padding-right: 22px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+                border-radius: 3.5px;
+                margin-top: 26px;
+
+                @media(max-width:768px) {
+                    color: #DDF2FF;
+                    background-color: #225779;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border: none;
+                    border-radius: 3.5px;
+                    margin-top: 26px;
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+.lastContent {
+    background-color: #225779;
+    margin-top: 30px;
+    @media  (max-width:768px){
+        margin-top: 56px;
+        text-align: center;
+    }
+
+    h3 {
+        color: white;
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        padding-left: 51px;
+        @media (max-width:768px){
+            font-size: 13px;
+            padding-bottom: 18px;
+            padding: 0px;
+            padding-top: 12px;
+            padding-bottom: 16px;
+        }
+    }
+
+}
+
+
+// ================================ css ==========================

@@ -1,0 +1,40 @@
+
+.completeData{
+    max-width: 1140px;
+    margin: 0 auto;
+    .mapData{
+        display: flex;
+        .Images{
+            width: 137px;
+            height: 395px;
+        }
+    }
+    .middleContent{
+        display: flex;
+        gap:186px;
+        .leftContent{
+            width: 139px;
+
+        }
+        .imageContent{
+            width: 501px;
+
+        }
+        .rigtContent{
+            width: 131px;
+        }
+    }
+    .bgContent{
+       
+        .textSection{
+            display: flex;
+            justify-content: center;
+            p{
+               max-width: 717px;
+               text-align: center;
+            }
+        
+        }
+    }
+
+}

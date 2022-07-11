@@ -1,0 +1,124 @@
+.flexCnt{
+    background-color: #57CC98;
+    @media (max-width:768px){
+        margin-top: 80px;
+
+    }
+    .forWidth {
+        position: relative;
+        .leftCard{
+            width: 156px;
+            position: absolute;
+            z-index: 999;
+            @media (max-width:768px){
+                width: 147px;
+            }
+        }
+        .rightCard{
+            width: 170px;
+            position: absolute;
+            right: 0px;
+            bottom: -4px;
+            @media (max-width:768px){
+                width: 147px;
+            }
+
+        }
+    
+        .topImage {
+            width: 980px;
+            margin: 0 auto;
+            @media (max-width:768px){
+                display: block;
+                padding-top: 129px;
+                width: 251px;
+            }
+    
+            img {
+                margin-top: 35px;
+                @media (max-width:768px){
+                    width: 100%;
+                }
+            }
+        }
+    
+        .downCnt {
+            display: flex;
+            justify-content: center;
+            @media(max-width:768px){
+                display: block;
+            }
+        }
+    
+        .content {
+            p {
+    
+                width: 507px;
+                text-align: center;
+                @media (max-width:768px){
+                 width: 291px;
+                 margin: 0 auto;
+                 padding-top: 35px;
+                }
+    
+            }
+    
+            .twoButtons {
+                width: 504px;
+                display: flex;
+                gap: -14px;
+                margin-top: 49px;
+                margin-bottom: 40px;
+                @media (max-width:768px){
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 134px;
+            
+                }
+    
+                .sample {
+                    font-family: Commissioner;
+                    font-size: 17px;
+                    font-weight: 600;
+                    line-height: 21px;
+                    background-color: #225779;
+                    color: white;
+                    padding-left: 56px;
+                    padding-right: 56px;
+                    padding-top: 8.5px;
+                    padding-bottom: 9.5px;
+                    border-radius: 5px;
+                    border: none;
+                    margin: 0 auto;
+                    @media (max-width:768px){
+                                               
+                    }
+                }
+    
+                .enquire {
+                    font-family: Commissioner;
+                    font-size: 17px;
+                    font-weight: 600;
+                    line-height: 21px;
+                    background-color: transparent;
+                    border-color: #225779;
+                    border: 2px solid;
+                    margin: 0 auto;
+                    color: #225779;
+                    padding-left: 56px;
+                    padding-right: 56px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-radius: 5px;
+                    @media (max-width:768px){   
+                        width: 226px;
+                        margin-top: 16px;
+                    }
+                }
+    
+    
+            }
+        }
+    }
+}

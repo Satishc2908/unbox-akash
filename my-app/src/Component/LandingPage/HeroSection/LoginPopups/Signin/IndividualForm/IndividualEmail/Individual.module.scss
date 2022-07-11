@@ -1,0 +1,138 @@
+.personalInfo {
+    margin-top: 20px;
+    .personalText {
+        
+        h4 {
+            text-align: center;
+            font-family: Commissioner;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #183B56;
+
+        }
+    }
+
+    .companyText {
+        margin-top: 12px;
+        width:368px;
+        
+        h3 {
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+
+        }
+
+        input {
+            background-color: white;
+            padding-right: 170px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));         
+
+        }
+
+        p {
+            color: #555555;
+            font-family: Work Sans;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-top: 17px;
+            margin-bottom: 28px;
+            margin-left: 8px;
+        }
+    }
+
+    .radioInfo {
+        display: flex;
+        gap:16px;
+        margin-bottom: -11px;
+      .radioLeft, .radioRight{
+        input{
+            margin-right: 10px;
+        }
+        label {
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 15px;
+            color: #000000;
+           
+        }
+      }
+    }
+
+    .coorporateInfo {
+        margin-bottom: -16px;
+       
+        h3 {
+            margin-top: 36px;
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+
+        input {
+            background-color: white;
+            padding-right: 170px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); 
+        
+        }
+
+    }
+
+    .buttonInfo {
+        margin-top: 46px;
+        input {
+            background-color: #225779;
+            padding-top: 9px;
+            border: none;
+            padding-bottom: 10px;
+            padding-right: 170px;
+            border-radius: 7px;
+            padding-left: 155px;
+            color: white;
+        }
+    }
+    .buttonInfobussiness {
+        margin-top: 46px;
+        input {
+            background-color: #225779;
+            padding-top: 9px;
+            border: none;
+            padding-bottom: 10px;
+            padding-right: 136px;
+            border-radius: 7px;
+            padding-left: 145px;
+            color: white;
+        }
+    }
+
+    .requiredFields {
+
+        p {
+            font-family: Commissioner;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: red
+        }
+    }
+}
+span{
+    color: red;
+}

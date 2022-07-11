@@ -1,0 +1,188 @@
+.welcome {
+    text-align: center;
+    margin-top: 24px;
+
+    h3 {
+        color: #225779;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+
+    }
+}
+.signinText {
+    text-align: center;
+    margin-top: 2px;
+
+    h5 {
+        color: #183B56;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+
+    }
+}
+
+.emailInput {
+    margin-top: -12px;
+    h6 {
+
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0 auto;
+
+        span {
+            color: red;
+        }
+
+    }
+
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 159px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 7px;
+        border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); 
+        margin-top: 9px;
+
+
+    }
+}
+
+.passwordInput {
+    margin-top: 18px;
+    h6 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0 auto;
+
+        span {
+            color: red;
+        }
+    }
+
+    input {
+        max-width: 360px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 159px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 7px;
+        border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); 
+        margin-top: 9px;
+    }
+}
+
+.keepMe {
+    display: flex;
+    gap: 96px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+
+    .checkBox {
+        margin-top: 12px;
+        margin-bottom: 15px;
+        h4 {
+            color: #555555;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+
+        }
+
+    }
+}
+
+.signinButton {
+    margin-top: -37px;
+    cursor: pointer;
+    button {
+        padding-top: 17px;
+        padding-left: 122px;
+        padding-right: 129px;
+        padding-bottom: 12px;
+        background-color: #225779;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.required {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: red;
+    }
+}
+
+.noAccount {
+    cursor: pointer;
+    h3 {
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #555555;
+
+        span {
+            color: #225779;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 7px;
+        }
+    }
+}
+
+.cardWidth {
+    max-width: 447px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 54px;
+    padding-right: 54px;
+    margin:  0 auto;
+    background-color: white;
+}
+.posCls {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 999;
+    padding-top: 29px;
+}
+.plus {
+    position: absolute;
+    top: 38px;
+    transform: rotate(45deg);
+    left: 65%;
+
+
+    h1 {
+        font-weight: unset;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}

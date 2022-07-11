@@ -1,0 +1,160 @@
+.welcome {
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
+
+    h3 {
+        color: #225779;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+
+    }
+}
+
+.signinText {
+    text-align: center;
+
+    h5 {
+        color: #225779;
+        font-size: 20px;
+        margin-top: -13px;
+        font-weight: 600;
+        line-height: 32px;
+        margin-bottom: -16px;
+
+
+    }
+}
+
+.content {
+    h6 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+.emailInput {
+    margin-top: -12px;
+
+    h6 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0 auto;
+
+        span {
+            color: red;
+        }
+
+    }
+
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 159px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 7px;
+        border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); 
+        margin-top: 9px;
+
+
+    }
+}
+
+
+.signinButton {
+    margin-top: 32px;
+    margin-bottom: 50px;
+
+    button {
+        
+        padding-top: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 8px;
+        background-color: #225779;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: left;
+
+        border-radius: 8px;
+        border: none;
+    }
+}
+
+.required {
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: red;
+    }
+}
+
+.noAccount {
+    h3 {
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #555555;
+
+        span {
+            color: #225779;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 7px;
+        }
+    }
+}
+
+.cardWidth {
+    max-width: 360px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: fixed;
+    left: 33%;
+    background: #fff;
+    z-index: 999;
+    top: 81px;
+
+}
+
+.posCls {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 999;
+
+}
+
+.plus {
+    position: absolute;
+    right: -22px;
+    top: -16px;
+    transform: rotate(45deg);
+
+    h1 {
+        font-weight: unset;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}

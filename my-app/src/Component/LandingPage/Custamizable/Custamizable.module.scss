@@ -1,0 +1,313 @@
+.totalContent {
+    position: relative;
+    margin-bottom: 90px;
+
+    @media (max-width:768px) {
+        position: relative;
+        margin: 0px;
+    }
+
+    .topFlex {
+        display: flex;
+        justify-content: center;
+        margin-top: 95px;
+        position: relative;
+        margin-left: -101px;
+
+        @media (max-width:768px) {
+            display: block;
+            margin: 0px;
+        }
+
+        @media (max-width:768px) {
+            .mainImg {
+                margin-left: 31px;
+                margin-right: 31px;
+                margin-top: 78px;
+
+            }
+        }
+
+        .secondImg {
+            position: absolute;
+            top: -64px;
+            right: 105px;
+
+            @media (max-width:768px) {
+                position: absolute;
+                top: 3px;
+                right: 0px;
+            }
+
+            img {
+                @media(max-width:768px) {
+                    width: 83px;
+                    height: 86px;
+                    position: absolute;
+                    top: 113px;
+                    right: 61px;
+
+                }
+
+            }
+
+        }
+    }
+
+    .cSpark {
+        position: absolute;
+        top: 60%;
+        left: 17px;
+        transform: rotate(6deg);
+
+        @media (max-width:768px) {
+            display: block;
+        }
+
+    }
+
+    .mapFlex {
+        display: flex;
+        justify-content: center;
+        gap: 180px;
+        margin-left: 210px;
+        margin-right: 209px;
+        margin-top: 48px;
+
+        @media (max-width:768px) {
+            display: block;
+            margin-left: 101px;
+            margin-right: 101px;
+        }
+
+        .totalTowel {
+            .towel {
+                img {
+                    background-color: #DDF2FF;
+                    border-radius: 50%;
+                    padding-top: 29px;
+                    padding-right: 45px;
+                    padding-left: 45px;
+                    padding-bottom: 38px;
+                    width: 209px;
+                    height: 209px;
+                }
+
+                @media (max-width:768px) {
+                    text-align: center;
+                    margin-top: 51px;
+
+                }
+
+            }
+
+            .towelCnt {
+                text-align: center;
+                margin-left: 10px;
+                margin-top: 10px;
+
+
+                h3 {
+                    color: #225779;
+                    font-family: Commissioner;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+
+                    @media (max-width:768px) {
+                        margin-top: 8px;
+                    }
+
+                }
+
+                .border{
+                    background-color: #57CC98;
+                    width: 73px;
+                    height: 2px;
+                    margin-left: 57px;
+                    margin-top: 24px !important;
+                    margin-bottom: 22px  !important;
+
+                    @media (max-width:768px) {
+                        margin-bottom: 16px;
+                    }
+                }
+
+                p {
+                    font-family: Commissioner;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+
+                    @media(max-width:768px) {
+                        width: 147px;
+                        margin: 0 auto;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .totalShirt {
+            .shirt {
+                img {
+                    width: 209px;
+                    background-color: #C9FFE2;
+                    border-radius: 50%;
+                    padding-top: 29px;
+                    padding-right: 45px;
+                    padding-left: 45px;
+                    padding-bottom: 38px;
+                    height: 209px;
+
+                }
+
+                @media (max-width:768px) {
+                    margin-top: 51px;
+                    text-align: center;
+                }
+
+            }
+
+            .shirtCnt {
+                text-align: center;
+                margin-left: 10px;
+                margin-top: 10px;
+
+
+                h3 {
+                    color: #225779;
+                    font-family: Commissioner;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+
+                    @media (max-width:768px) {
+                        margin-top: 8px;
+                    }
+
+                }
+
+                .border {
+                    background-color: #57CC98;
+                    width: 68px;
+                    margin-left: 62px;
+                    height: 2px;
+                    margin-top: 25px;
+                    margin-bottom: 24px;
+
+                    @media (max-width:768px) {
+                        margin-bottom: 16px;
+                    }
+                }
+
+                p {
+                    font-family: Commissioner;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+
+                    @media(max-width:768px) {
+                        width: 147px;
+                        margin: 0 auto;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .totalMart {
+            .mart {
+                img {
+                    background-color: #DDF2FF;
+                    border-radius: 50%;
+                    padding-top: 29px;
+                    padding-right: 45px;
+                    padding-left: 45px;
+                    padding-bottom: 38px;
+                    width: 209px;
+                    height: 209px;
+
+                }
+
+                @media (max-width:768px) {
+                    margin-top: 51px;
+                }
+
+            }
+
+            .martCnt {
+                text-align: center;
+                margin-left: 10px;
+                margin-top: 10px;
+
+
+                h3 {
+                    color: #225779;
+                    font-family: Commissioner;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+
+                    @media (max-width:768px) {
+                        margin-top: 8px;
+                    }
+
+                }
+
+                .border {
+                    background-color: #57CC98;
+                    width: 68px;
+                    margin-left: 62px;
+                    height: 2px;
+                    margin-top: 25px;
+                    margin-bottom: 24px;
+
+                    @media (max-width:768px) {
+                        margin-bottom: 16px;
+                    }
+                }
+
+                p {
+                    font-family: Commissioner;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+
+                    @media(max-width:768px) {
+                        width: 147px;
+                        margin: 0 auto;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}
+
+.border {
+    background-color: #57CC98;
+    width: 73px;
+    height: 2px;
+    margin-left: 57px;
+    margin-top: 25px;
+    margin-top: 24px;
+
+    @media (max-width:768px) {
+        margin-left: 63px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+
+    }
+}
+
+
+
+

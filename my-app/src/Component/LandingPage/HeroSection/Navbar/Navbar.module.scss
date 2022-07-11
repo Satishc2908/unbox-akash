@@ -1,0 +1,144 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 106px;
+    margin-right: 107px;
+    @media(max-width:768px){
+       margin: 0px;
+       padding-top: 40px;
+    }
+}
+
+.logo {
+    img {
+        width: 179.6px;
+        height: 59px;
+        margin-top: 37px;
+        @media (max-width:768px){
+            margin-top:0px;
+        }
+    }
+    @media(max-width:768px){
+        max-width: 200px;
+        margin: 0 auto;
+        margin-top: 41px;
+    }
+}
+.lists {
+    ul {
+        list-style-type: none;
+        padding: 0px; 
+        li {
+            color: black;
+            font-weight: 500;
+            display: inline-block;
+            font-family: Commissioner;
+            font-size: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 46px;
+            @media(max-width:768px){
+                position: absolute;
+                height: 100%;
+                background: #fff;
+                width: 100%;
+                display: block;
+                text-align: left;
+                top: 0px;
+                color: black;
+                font-weight: 500;
+            }
+            select{
+                font-size: 15px;
+                font-weight: 500;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                option{
+                    font-weight: 500;
+                    background-color: rgb(246, 244, 244);
+                    padding-top: 4px;
+                    padding-bottom: 4px;
+                }
+            }
+        }
+    }
+    @media(max-width:768px){
+        position: absolute;
+        /* display: none; */
+        height: 100%;
+        background: #fff;
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+
+    
+}
+.searchbutton {
+    display: flex;
+    gap: 37px;
+    margin-top: 45px;
+    img{
+        margin-top: 11px;
+    }
+    button {
+        border-radius: 4px;
+        padding: 6px;
+        border: none;
+        background-color: #225779;
+        width: 110px;
+        color:white;
+        font-family: Commissioner;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    @media(max-width:768px){
+        display: none;
+           
+    /* display: none; */
+   
+
+    } 
+}
+.searchIcon{
+    display: none;
+    img{
+        width: 23px;
+        height: 23px;
+    }
+    @media(max-width:768px){
+        display: block;    
+        img{
+            margin-right: 22px;
+            margin-top: 59px;
+        }
+    
+    }
+    
+    
+}
+.toggleIcon{
+    display: none;
+
+    img{
+        width: 23px;
+        height: 23px;
+    }
+    @media(max-width:768px){
+        display: block;   
+        margin-top: 59px; 
+        margin-left: 22px;
+    
+    }
+}
+.closeicon{
+    display: none;
+    @media (max-width:768px){
+display:block;
+position: absolute;
+    right: 35px;
+    top: 13px;
+    }
+}

@@ -1,0 +1,654 @@
+// ==========================signUp=================================
+
+.mainDivision {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 112%;
+    top: -34px;
+    z-index: 999;
+    padding-top: 100px;
+
+}
+
+.totalDivision {
+    max-width: 488px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    height: 415px;
+    overflow-y:auto;
+    position: relative;
+
+
+}
+
+
+.content1Welcome {
+    margin-top: 50px;
+
+    h3 {
+        text-align: center;
+        font-family: Commissioner;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #225779;
+    }
+
+}
+
+.contentplus {
+    position: absolute;
+    top: 6px;
+    transform: rotate(45deg);
+    left: 86%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.dropDown {
+    margin-top: 24px;
+    margin-bottom: 79px;
+
+    select {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 176px;
+        padding-left: 14px;
+
+    }
+}
+
+.personalInfo {
+    margin-top: 20px;
+
+    .personalText {
+
+        h4 {
+            text-align: center;
+            font-family: Commissioner;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #183B56;
+
+        }
+    }
+
+    .companyText {
+        margin-top: 12px;
+        width: 368px;
+
+        h3 {
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+
+        }
+
+        input {
+            background-color: white;
+            padding-right: 170px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+
+        }
+
+        p {
+            color: #555555;
+            font-family: Work Sans;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-top: 17px;
+            margin-bottom: 28px;
+            margin-left: 8px;
+        }
+    }
+
+    .radioInfo {
+        display: flex;
+        gap: 16px;
+        margin-bottom: -11px;
+
+        .radioLeft,
+        .radioRight {
+            input {
+                margin-right: 10px;
+            }
+
+            label {
+                font-family: Commissioner;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 15px;
+                color: #000000;
+
+            }
+        }
+    }
+
+    .coorporateInfo {
+        margin-bottom: -16px;
+
+        h3 {
+            margin-top: 36px;
+            font-family: Commissioner;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+
+        input {
+            background-color: white;
+            padding-right: 170px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+
+        }
+
+    }
+
+    .buttonInfo {
+        margin-top: 46px;
+
+        input{
+            background-color: #225779;
+            padding-top: 9px;
+            border: none;
+            padding-bottom: 10px;
+            padding-right: 170px;
+            border-radius: 7px;
+            padding-left: 155px;
+            color: white;
+        }
+    }
+
+    .buttonInfobussiness {
+        margin-top: 46px;
+
+        input {
+            background-color: #225779;
+            padding-top: 9px;
+            border: none;
+            padding-bottom: 10px;
+            padding-right: 136px;
+            border-radius: 7px;
+            padding-left: 145px;
+            color: white;
+        }
+    }
+
+    .requiredFields {
+
+        p {
+            font-family: Commissioner;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: red
+        }
+    }
+}
+
+span {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// ================================signIn ================================
+.posCls1 {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 999;
+
+    .cardWidth1 {
+        height: 479px;
+    overflow: auto;
+
+        max-width: 445px;
+        padding-top: 19px;
+        padding-bottom: 10px;
+        padding-left: 47px;
+        padding-right: 36px;
+        margin: 0 auto;
+      
+        position: fixed;
+        left: 33%;
+        background: #fff;
+        z-index: 999;
+        top: 18px;
+
+        .welcome {
+            position: relative;
+            text-align: center;
+            padding-top: 5px;
+
+            .plus {
+                position: absolute;
+                position: absolute;
+                right: -23px;
+                top: -16px;
+
+                opacity: 0.5;
+                cursor: pointer;
+
+                h1 {
+                    transform: rotate(45deg);
+
+
+                }
+
+            }
+
+            h3 {
+                color: #225779;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 40px;
+                margin-bottom: 15px;
+
+            }
+        }
+
+        .mobile {
+            margin-bottom: 31px;
+            cursor: pointer;
+            position: relative;
+            background-color: #225779;
+            max-width: 356px;
+            border-radius: 6px;
+
+            h4 {
+                text-align: center;
+                padding-top: 13px;
+                padding-bottom: 17px;
+                padding-right: 16px;
+                color: white;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 18px;
+                padding-left: 56px;
+
+
+            }
+
+            .image {
+                position: absolute;
+                bottom: 4px;
+                left: 6px;
+
+                img {
+                    background-color: #57CC98;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    padding-right: 11px;
+                    padding-left: 11px;
+                    border-radius: 4px;
+
+                }
+            }
+        }
+
+        .signinText {
+            text-align: center;
+            margin-top: -20px;
+
+            h5 {
+                color: #183B56;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 20px;
+                margin-bottom: 11px;
+
+            }
+        }
+    }
+}
+
+.form {
+    h4 {
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 10px;
+
+        span {
+            color: red;
+        }
+
+    }
+
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 159px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 7px;
+        border: 1px solid #C3CAD9;
+        margin-top: 9px;
+
+        .keepMe1 {
+            display: flex;
+            gap: 96px;
+            margin-top: -6px;
+            margin-bottom: 8px;
+
+            .kleft {
+                h3 {
+                    font-family: Commissioner;
+                    font-size: 15px;
+                    font-weight: 600;
+                    line-height: 20px;
+
+
+
+                }
+
+            }
+
+            .kright {
+                color: #225779;
+
+                h3 {
+                    color: #225779;
+                    font-family: Commissioner;
+                    font-size: 15px;
+                    font-weight: 600;
+                    line-height: 20px;
+
+                }
+
+            }
+        }
+    }
+}
+
+.ButtonClass {
+    button {
+        padding-top: 13px;
+        padding-left: 153px;
+        padding-right: 153px;
+        padding-bottom: 13px;
+        background-color: #225779;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        border-radius: 8px;
+        border: none;
+    }
+
+}
+
+.keepMe1 {
+    display: flex;
+    gap: 98px;
+    margin-top: 20px;
+}
+
+.kleft {
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+}
+
+.kright {
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+}
+
+.required {
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: red;
+    }
+}
+
+.noAccount {
+    cursor: pointer;
+
+    h3 {
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #555555;
+
+        span {
+            color: #225779;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 7px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =============================forget===========================
+.fwelcome {
+
+    text-align: center;
+    position: relative;
+    padding-top: 43px;
+
+
+    h3 {
+        color: #225779;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+
+    }
+}
+
+.fsigninText {
+    text-align: center;
+    margin-top: 25px;
+
+    h5 {
+        color: #225779;
+        font-size: 20px;
+        margin-top: -13px;
+        font-weight: 600;
+        line-height: 32px;
+        margin-bottom: -16px;
+
+
+    }
+}
+
+.fcontent {
+    margin-top: 25px;
+
+    h6 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+.femailInput {
+    margin-top: 9px;
+
+    h6 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0 auto;
+
+        span {
+            color: red;
+        }
+
+    }
+
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 159px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 7px;
+        border: 1px solid #C3CAD9;
+        margin-top: 15px;
+
+
+    }
+}
+
+
+.fsigninButton {
+
+    margin-top: 32px;
+    margin-bottom: 50px;
+
+    button {
+
+        padding-top: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 8px;
+        background-color: #225779;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: left;
+
+        border-radius: 8px;
+        border: none;
+    }
+}
+
+.frequired {
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: red;
+    }
+}
+
+.fnoAccount {
+    h3 {
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #555555;
+
+        span {
+            color: #225779;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 7px;
+        }
+    }
+}
+
+.fcardWidth {
+    max-width: 445px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin: 0 auto;
+
+    position: fixed;
+    left: 33%;
+    background: #fff;
+    z-index: 999;
+    top: 81px;
+
+}
+
+.fposCls {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 999;
+
+}
+
+.fplus {
+    position: absolute;
+    right: -17px;
+    top: 3px;
+    transform: rotate(45deg);
+
+    h1 {
+        font-weight: unset;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}

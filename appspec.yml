@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/unbox-fe-cicd
+    destination: /home/ubuntu/
 permissions:
-  - object: /home/ubuntu/unbox-fe-cicd/
+  - object: /home/ubuntu/
     pattern: "**"
     owner: root
     group: root
